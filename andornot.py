@@ -38,6 +38,7 @@ temperature = 28
 is_cold = temperature < 10 # холодно
 is_warm = 10 <= temperature <= 25 # тепло
 is_hot = temperature > 25 # жарко
+weather_type = 'cухо
 
 if is_cold or weather_type == "дождь" and not is_hot:
     print("Если идёшь на улицу, лучше надень что-то тёплое и возьми зонт!")
